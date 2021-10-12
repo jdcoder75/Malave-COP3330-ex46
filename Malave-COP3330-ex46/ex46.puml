@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+main -> readArray: send the file path
+readArray--> main: gives main an array
+
+main -> printArray: send the string array to get printed
+printArray --> output: outputs the frequency
+@enduml
